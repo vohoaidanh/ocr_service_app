@@ -16,8 +16,8 @@ This repository provides a simple OCR service using PaddleOCR and FastAPI.
 
 Clone the repository:
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo/app
+git clone https://github.com/vohoaidanh/ocr_service_app.git
+cd ocr_service_app/app
 ```
 
 Install dependencies:
@@ -63,7 +63,7 @@ curl -X POST "http://localhost:8000/ocr/" \
 
 ## Folder Structure
 ```
-project-root/
+ocr_service_app/
 │── app/
 │   ├── main.py
 │   ├── ocr_model.py
