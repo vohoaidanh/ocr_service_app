@@ -1,0 +1,10 @@
+services:
+  ocr_service:
+    build:
+      context: .  # Chỉ định thư mục chứa Dockerfile
+      dockerfile: Dockerfile  # Đảm bảo dùng đúng Dockerfile
+    container_name: fastapi_ocr_service
+    ports:
+      - "8000:8000"
+
+    restart: unless-stopped
